@@ -36,6 +36,9 @@ body{
     padding: 0px 7px;
     cursor: pointer;
 }
+.header i:hover{
+    background-color: rgb(194, 193, 193);
+}
 .header_search form{
     border: 1px solid #ddd;
     height: 30px;
@@ -61,18 +64,65 @@ body{
     font-size: 130%;
 }
 .h{
-    border-top: 3px solid black;
+    border-top: 1px solid rgb(242, 238, 238);
 }
 /*MAIN BODY*/
 .sidebar{
     width: 15%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     cursor: pointer;
+    padding-left: 20px;
     font-size: 120%;
     padding-top: 20px;
-    border-right: 3px solid black;
-    padding-left: 12px;
+    border-right: 1.5px solid rgb(242, 238, 238);
+    padding-bottom: 20px;
+    height: 10%;
 
 } 
+.sidebar i{
+    padding-right:5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.sidebar i span{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sidebar i:hover{
+    background-color: rgb(194, 193, 193);
+}
+
+
+
+.video_container {
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+.video img{
+    width: 30%;
+
+}
+.descp img{
+    width :3cap;
+    height: 30px;
+    border-radius: 50%;
+}
+.descp span{
+    margin-bottom: 10%;
+}
+.descp:hover{
+    background-color:rgb(194, 193, 193) ;
+    cursor: pointer;
+    width:30%
+}
+
+
+
+   
