@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Roboto',sans-serif;
+    text-align: justify;
+    
 }
 .i{
     color:rgb(96,96,96);
@@ -22,10 +24,13 @@ body{
 .header_left{
     display: flex;
     align-items: center;
+    font-size: 130%;
 }
 .header_left img{
-    width: 130px;
+    width: 150px;
     margin-left: 0px;
+
+    padding: 10px;
 }
 .header i{
     padding: 0px 7px;
@@ -51,15 +56,23 @@ body{
     border: none;
     border-radius: 0;
 }
-.header_icon i{
-    width: 40px;
-    height: 70px;
-    padding: 10;
+
+.header_icon{
+    font-size: 130%;
+}
+.h{
+    border-top: 3px solid black;
 }
 /*MAIN BODY*/
 .sidebar{
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
-    gap: 0px;
-}
+    gap: 40px;
+    cursor: pointer;
+    font-size: 120%;
+    padding-top: 20px;
+    border-right: 3px solid black;
+    padding-left: 12px;
+
+} 
